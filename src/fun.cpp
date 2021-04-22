@@ -1,9 +1,12 @@
 int power(int x, unsigned p) {
-int answer = 1;
-for(int i=1; i <= 2 * p; i++)
-{ if(p < 0)
-break;
-answer *= x;
-}
-return answer;
-} 
+
+  {
+    if (n==0)
+        return 1;
+    else if (n==1)
+        return x;
+    else if (n % 2 == 0 )
+        return pow( x * x, n/2);
+    else
+        return pow( x * x, n /2)*x;
+ }
