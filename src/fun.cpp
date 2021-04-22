@@ -1,4 +1,4 @@
-int power(int x, unsigned p) {
+long long power(long long x, unsigned short n)
 
   {
     if (n==0)
